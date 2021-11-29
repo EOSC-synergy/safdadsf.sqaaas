@@ -1,7 +1,7 @@
 services:
   qc.sty_stuffy-peach-tiger:
     build:
-      context: ./github/EOSC-synergy/sqaaas-tooling/QC.Lic/licensee
+      context: github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pycodestyle
       dockerfile: Dockerfile
     command: sleep 6000000
     volumes:
