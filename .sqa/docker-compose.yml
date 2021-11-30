@@ -1,5 +1,5 @@
 services:
-  qc.sty_lumpy-auburn-frigatebird:
+  qc.sty_flaky-myrtle-drever:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Lic/licensee
       dockerfile: Dockerfile
