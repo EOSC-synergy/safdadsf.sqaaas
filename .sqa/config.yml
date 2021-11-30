@@ -12,5 +12,5 @@ sqa_criteria:
       this_repo:
         commands:
         - licensee detect . --json
-        container: qc.sty_lumpy-auburn-frigatebird
+        container: qc.sty_flaky-myrtle-drever
 timeout: 600
