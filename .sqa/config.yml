@@ -12,5 +12,5 @@ sqa_criteria:
       this_repo:
         commands:
         - licensee detect . --json
-        container: qc.sty_flaky-myrtle-drever
+        container: qc.sty_cheeky-ultramarine-setter
 timeout: 600
