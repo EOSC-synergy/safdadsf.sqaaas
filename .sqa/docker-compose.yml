@@ -1,5 +1,5 @@
 services:
-  qc.sty_cheeky-ultramarine-setter:
+  qc.sty_crabby-thistle-axolotl:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Lic/licensee
       dockerfile: Dockerfile
