@@ -1,4 +1,4 @@
-@Library(['github.com/indigo-dc/jenkins-pipeline-library@feature/catcherror_162']) _
+@Library(['github.com/indigo-dc/jenkins-pipeline-library@2.1.1']) _
 
 def projectConfig
 
@@ -6,7 +6,7 @@ pipeline {
     agent any
 
     stages {
-        stage('SQA baseline criterion: QC.Sty') {
+        stage('SQA baseline criterion: QC.Sty & QC.Lic') {
             steps {
                 script {
                     projectConfig = pipelineConfig(
