@@ -2,24 +2,18 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: main
+      branch: staging
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
-    github.com/indigo-dc/udocker:
-      branch: ''
-      repo: https://github.com/indigo-dc/udocker
+    github.com/foo:
+      branch: master
+      repo: https://github.com/foo
 environment:
   JPL_KEEPGOING: true
 sqa_criteria:
-  QC.Lic:
-    repos:
-      github.com/indigo-dc/udocker:
-        commands:
-        - /usr/bin/env sh .sqa/script.shaky-turquoise-mau.sh
-        container: qc.lic_slimy-asparagus-bat
   QC.Sty:
     repos:
-      github.com/indigo-dc/udocker:
+      github.com/foo:
         commands:
-        - /usr/bin/env sh .sqa/script.cozy-periwinkle-armadillo.sh
-        container: qc.sty_slimy-magnolia-wolf
+        - /usr/bin/env sh .sqa/script.lovely-seashell-slug.sh
+        container: qc.sty_sleazy-cinnabar-flamingo
 timeout: 600
