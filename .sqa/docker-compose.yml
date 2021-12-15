@@ -1,5 +1,5 @@
 services:
-  qc.sty_sleazy-cinnabar-flamingo:
+  qc.sty_snoopy-mauve-reindeer:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Lic/licensee
       dockerfile: Dockerfile
