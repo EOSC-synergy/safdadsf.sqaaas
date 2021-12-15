@@ -4,16 +4,16 @@ config:
     github.com/EOSC-synergy/sqaaas-tooling:
       branch: staging
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
-    github.com/foo:
-      branch: master
-      repo: https://github.com/foo
+    github.com/eosc-synergy/safdadsf.sqaaas:
+      branch: main
+      repo: https://github.com/eosc-synergy/safdadsf.sqaaas
 environment:
   JPL_KEEPGOING: true
 sqa_criteria:
   QC.Sty:
     repos:
-      github.com/foo:
+      github.com/eosc-synergy/safdadsf.sqaaas:
         commands:
-        - /usr/bin/env sh .sqa/script.lovely-seashell-slug.sh
-        container: qc.sty_sleazy-cinnabar-flamingo
+        - /usr/bin/env sh .sqa/script.sloppy-heliotrope-coyote.sh
+        container: qc.sty_snoopy-mauve-reindeer
 timeout: 600
