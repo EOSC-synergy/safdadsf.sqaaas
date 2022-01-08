@@ -5,7 +5,7 @@ config:
       branch: staging
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/eosc-synergy/sqaaas-api-spec:
-      branch: main
+      branch: staging
       repo: https://github.com/eosc-synergy/sqaaas-api-spec
 environment:
   JPL_KEEPGOING: true
