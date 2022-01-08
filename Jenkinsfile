@@ -6,7 +6,7 @@ pipeline {
     agent any
 
     stages {
-        stage('SQA baseline criterion: QC.Sty') {
+        stage('SQA baseline criterion: QC.Doc') {
             steps {
                 script {
                     projectConfig = pipelineConfig(
