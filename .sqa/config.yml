@@ -4,16 +4,20 @@ config:
     github.com/EOSC-synergy/sqaaas-tooling:
       branch: staging
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
-    github.com/eosc-synergy/safdadsf.sqaaas:
+    github.com/eosc-synergy/sqaaas-api-spec:
       branch: main
-      repo: https://github.com/eosc-synergy/safdadsf.sqaaas
+      repo: https://github.com/eosc-synergy/sqaaas-api-spec
 environment:
   JPL_KEEPGOING: true
 sqa_criteria:
-  QC.Sty:
+  QC.Doc:
     repos:
-      github.com/eosc-synergy/safdadsf.sqaaas:
+      github.com/eosc-synergy/sqaaas-api-spec:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-heliotrope-coyote.sh
-        container: qc.sty_snoopy-mauve-reindeer
+        - /usr/bin/env sh .sqa/script.gamy-teal-snail.sh
+        container: qc.doc_pasty-lime-caterpillar
+      github.com/eosc-synergy/sqaaas-api-spec__2:
+        commands:
+        - /usr/bin/env sh .sqa/script.foggy-burgundy-dogfish.sh
+        container: qc.doc_chummy-asparagus-drever
 timeout: 600
