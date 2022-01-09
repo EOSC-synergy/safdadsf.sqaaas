@@ -14,10 +14,10 @@ sqa_criteria:
     repos:
       github.com/eosc-synergy/sqaaas-api-spec:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-teal-snail.sh
-        container: qc.doc_pasty-lime-caterpillar
+        - /usr/bin/env sh .sqa/script.craggy-seashell-caracal.sh
+        container: qc.doc_slaphappy-fuchsia-moth
       github.com/eosc-synergy/sqaaas-api-spec__2:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-burgundy-dogfish.sh
-        container: qc.doc_chummy-asparagus-drever
+        - /usr/bin/env sh .sqa/script.wimpy-corn-newfoundland.sh
+        container: qc.doc_trippy-rust-maltese
 timeout: 600
