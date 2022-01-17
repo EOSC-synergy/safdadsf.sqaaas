@@ -1,0 +1,15 @@
+config:
+  credentials: []
+  project_repos:
+    github.com/EOSC-synergy/sqaaas-tooling:
+      branch: main
+      repo: https://github.com/EOSC-synergy/sqaaas-tooling
+environment: {}
+sqa_criteria:
+  QC.Lic:
+    repos:
+      this_repo:
+        commands:
+        - licensee --json detect .
+        container: qc.lic_hazy-copper-koala
+timeout: 600
